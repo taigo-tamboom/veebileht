@@ -1,7 +1,7 @@
 .tekst {
     color:rgb(3, 175, 255);
     font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Garamond, serif;
     text-align: justify;
 
 }
@@ -19,7 +19,7 @@
 .pealkiri {
     color: black;
     font-size: 32px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Garamond, serif;
     font-weight: bold;
     text-align: center;
 
