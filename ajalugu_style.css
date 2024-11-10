@@ -1,0 +1,31 @@
+.tekst {
+    color:rgb(3, 175, 255);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+}
+
+.pilt{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.pealkiri {
+    color:aquamarine;
+    font-size: 32 px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+
+}
+body {
+    background-color: rgb(199, 217, 119);
+    background-size: cover;
+    background-position: center;
+}
