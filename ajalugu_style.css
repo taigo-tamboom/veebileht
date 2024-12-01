@@ -1,29 +1,41 @@
 body {
-    background-image: url();
+    background-color: #9fdaf7;
     background-size: cover;
     background-position: center;
 }
 .pealkiri {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
-    font-weight: bold;
+    text-shadow: 2px 2px 4px #ffffff;
     text-align: center;
 }
 .alapealkiri {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
-    font-weight: bold
+    font-weight: 2px 2px 4px #ffffff;
 }
 .tekst {
-    
-    background-color: #ffecff;
+    border: solid white;
+    border-radius: 8px;
+    background-color:  #f7f7f7b1;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 95%;
     text-align: left;
 
 }
+
+ul {
+    border: solid white;
+    border-radius: 8px;
+    background-color: #f7f7f7b1;
+}
+li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .pildipealkiri{
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .column {
@@ -35,6 +47,10 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+.leheküljecolumn {
+    float: center;
+    width: auto;
 }
 .pildicolumn {
     float: left;
@@ -50,18 +66,7 @@ body {
     border: 1px solid #ddd;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-}
-
-.pilt_tekst_column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-}
-
-.pilt_tekst_row{
-    content: "";
-    clear: both;
-    display: table;
+    
 }
 .container {
     display: flex;
@@ -79,6 +84,11 @@ body {
     border-radius: 4px;
 }
 .leheküljepilt {
-    width: 230px;
+    max-width: justify;
     height: 160px;
+}
+.traps {
+    max-width: justify;
+    height: 160px;
+    background-color: white;
 }
