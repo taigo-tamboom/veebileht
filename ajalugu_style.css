@@ -49,7 +49,6 @@ li {
     clear: both;
 }
 .leheküljecolumn {
-    float: center;
     width: auto;
 }
 .pildicolumn {
@@ -84,11 +83,11 @@ li {
     border-radius: 4px;
 }
 .leheküljepilt {
-    max-width: justify;
+    max-width: 100%;
     height: 160px;
 }
 .traps {
-    max-width: justify;
+    max-width: 100%;
     height: 160px;
     background-color: white;
 }
