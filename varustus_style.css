@@ -1,36 +1,88 @@
 body {
     background-color: #9fdaf7;
-    background-size: cover;
-    background-position: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .pealkiri {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 32px;
+    font-size: 36px;
     text-shadow: 2px 2px 4px #ffffff;
     text-align: center;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px;
 }
+
 .alapealkiri {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
     font-weight: 2px 2px 4px #ffffff;
 }
+
 .tekst {
     border: solid white;
     border-radius: 8px;
     background-color:  #f7f7f7b1;
+    font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 95%;
     text-align: left;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
 
+ul.tekst {
+    padding-left: 25px;
+    list-style-type: disc;
 }
 
 .column {
     flex: 1;
     min-width: 300px;
+    flex-basis: 45%;
+    margin: 10px;
 }
     
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+    padding: 20px;
+}
+
+.pilt{
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pilt:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .column {
+        flex-basis: 100%
+    }
+
+    .pealkiri {
+        font.size: 30px;
+    }
+
+    .alapealkiri {
+        font-size: 24px;
+    }
 }
