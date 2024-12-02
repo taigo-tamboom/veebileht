@@ -79,7 +79,11 @@ ul.tekst {
     }
 
     .pealkiri {
+<<<<<<< HEAD
         font-size: 30px;
+=======
+        font.size: 30px;
+>>>>>>> df08747f04549e2b61c7b6f0663c1ea6a10fadc7
     }
 
     .alapealkiri {
