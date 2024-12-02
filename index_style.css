@@ -1,0 +1,21 @@
+body {
+    background-color: #9fdaf7;
+}
+
+.kogu_leht {
+    max-width: 80ch;
+    margin: auto;
+}
+
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    border: solid white;
+    border-radius: 8px;
+    background-color: #f7f7f7b1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 95%;
+    text-align: left;
+}
