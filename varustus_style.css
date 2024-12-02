@@ -1,0 +1,36 @@
+body {
+    background-color: #9fdaf7;
+    background-size: cover;
+    background-position: center;
+}
+.pealkiri {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px #ffffff;
+    text-align: center;
+}
+.alapealkiri {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 2px 2px 4px #ffffff;
+}
+.tekst {
+    border: solid white;
+    border-radius: 8px;
+    background-color:  #f7f7f7b1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 95%;
+    text-align: left;
+
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+    
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
